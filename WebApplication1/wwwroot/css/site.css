@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: black;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#animation {
+    background-image: url(https://jumpingfishes.com/dancingpurpleunicorns/charging.png);
+    background-repeat: no-repeat;
+    height: 102px;
+    width: 140px;
+}
